@@ -26,11 +26,14 @@ hypridle
 
 # paru install
 
-sudo pacman -S --needed base-devel
-git clone https://aur.archlinux.org/paru-bin.git
-(cd to git dwnld dir)
-makepkg -si
-paru --gendb
+sudo pacman -S --needed base-devel  
+git clone https://aur.archlinux.org/paru-bin.git  
+(cd to git dwnld dir) 
+makepkg -si  
+paru --gendb  
 
+
+# info
+[hypr_idle_config](https://wiki.hyprland.org/Hypr-Ecosystem/hypridle/)
 
 
