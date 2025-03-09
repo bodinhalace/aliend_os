@@ -22,7 +22,7 @@ nwg-draver
 links
 elinks
 git
-
+hypridle
 
 # paru install
 
