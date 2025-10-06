@@ -1,0 +1,9 @@
+style=~/.config/wofi/style.css
+prompt=Spustit:
+width=600
+height=400
+location=center
+allow_markup=true
+hide_scroll=true
+insensitive=true
+no_actions=true

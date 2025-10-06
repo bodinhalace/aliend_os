@@ -1,0 +1,45 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+window {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid #00ffff;
+  border-radius: 12px;
+  padding: 12px;
+  animation: fadeIn 0.4s ease-out;
+}
+
+#input {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #00ffff;
+  border: 2px solid #00ffff;
+  border-radius: 8px;
+  padding: 6px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: "JetBrains Mono", monospace;
+  text-shadow: 1px 1px 2px #000000;
+
+#entry {
+  color: #00ffff;
+  background-color: transparent;
+  padding: 6px;
+  margin: 3px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: "JetBrains Mono", monospace;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+#entry:selected {
+  background-color: rgba(0, 255, 255, 0.2);
+  color: #ffffff;
+  text-shadow: none;
+}
